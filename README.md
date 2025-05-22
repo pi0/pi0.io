@@ -2,9 +2,16 @@
 
 pi0.io website (design and content) powered by [pipress](https://github.com/pi0/pipress).
 
+See [this post](https://pi0.io/blog/pipress) for story.
+
+## Local preview
+
 ```sh
- docker run -it --rm \
-    -p 3000:3000 \
-    -e PIPRESS_URL=https://raw.githubusercontent.com/pi0/pi0.io/refs/heads/main/index.html \
-     ghcr.io/pi0/pipress
+npx pipress https://cdn.jsdelivr.net/gh/pi0/pi0.io/
+```
+
+or
+
+```sh
+npx pipress .
 ```
