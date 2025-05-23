@@ -7,7 +7,7 @@ See [this post](https://pi0.io/blog/pipress) for story.
 ## Local preview
 
 ```sh
-npx pipress https://cdn.jsdelivr.net/gh/pi0/pi0.io/
+npx pipress https://raw.githubusercontent.com/pi0/pi0.io/refs/heads/main
 ```
 
 or

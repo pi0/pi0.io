@@ -11,22 +11,18 @@
     <header class="terminal-header"></header>
     <nav class="nav">
       <a class="nav-button" href="/">pi0.io</a>
-      <a class="nav-button" href="https://x.com/_pi0_" target="_blank" rel="noopener">twitter</a>
-      <a class="nav-button" href="https://bsky.app/profile/pi0.io" target="_blank" rel="noopener" >bluesky</a>
-      <a class="nav-button" href="https://discord.com/users/pi0" target="_blank" rel="noopener" >discord</a>
-      <a class="nav-button" href="mailto:pooya@pi0.io" target="_blank" rel="noopener" >email</a>
-      <a class="nav-button" href="https://github.com/pi0" target="_blank" rel="noopener" >github</a>
     </nav>
     <main class="content">
-      <a href="{{contentURL}}" target="_blank" rel="noopener">[markdown]</a>
       {{content}}
+      <br>
+      <a href="{{contentURL}}" target="_blank" rel="noopener">[markdown]</a>
     </main>
     <footer>
       <p>
         🗿 Powered by
         <a href="https://github.com/pi0/pipress">[pipress]</a>
       </p>
-      <details open style="color: white;">
+      <details close style="color: white;">
         <summary style="cursor: pointer;">Perf Stats</summary>
         <div id="perf-stats"></div>
       </details>
